@@ -28,7 +28,7 @@ npm start
 
 ## dev_finder
 
-- A personnal project to learn React in the small break between the projects of epitech. It is using a personnal API and then display it.
+- A personnal project to learn React in the small breaks between the projects of epitech. It is using a personnal API and then display it.
 
 ### Usage
 
@@ -44,4 +44,4 @@ Then go on the project directory (react_dev_findr):
 npm start
 ```
 
-## I hope you enjoyed my work, if it is, you can follo me here or on [LinkedIn](https://www.linkedin.com/in/etienne-kretz10/).
+## I hope you enjoyed my work, if it is, you can follow me here or on [LinkedIn](https://www.linkedin.com/in/etienne-kretz10/).
