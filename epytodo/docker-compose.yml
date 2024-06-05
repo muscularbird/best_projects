@@ -1,0 +1,25 @@
+version: '3.1'
+
+services:
+
+  db:
+    image: mysql
+    restart: always
+    volumes:
+      - ./epytodo.sql:/docker-entrypoint-initdb.d/epytodo.sql
+    environment:
+      MYSQL_DATABASE: epytodo
+      MYSQL_USER: YOUR_USER
+      MYSQL_PASSWORD: YOUR_PASSWORD
+      MYSQL_ROOT_PASSWORD: YOUR_PASSWORD
+      MYSQL_HOST: localhost
+      SECRET: OUAILATEAM
+    ports:
+      - "3306:3306"
+  pma:
+    image: phpmyadmin
+    restart: always
+    environment:
+      - PMA_ARBITRARY=1
+    ports:
+      - "8080:80"
