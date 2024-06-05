@@ -1,0 +1,4 @@
+./src/inits/init_objects.c:64: MAJOR:C-F4
+./src/scenes/boss/boss.c:57: MAJOR:C-F4
+./src/scenes/boss/init_boss.c:32: MAJOR:C-F4
+./src/scenes/play/underground_skate/update_skate.c:76: MAJOR:C-C1

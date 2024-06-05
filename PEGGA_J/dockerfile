@@ -1,0 +1,17 @@
+# Utiliser une image de base avec un environnement de développement C
+FROM ubuntu:latest
+
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    libcsfml-dev \
+    && apt-get clean
+
+WORKDIR /usr/src/app
+
+COPY . .
+COPY assets ./assets
+
+RUN make
+
+CMD ["./my_rpg"]
